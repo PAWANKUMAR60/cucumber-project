@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-09T18:29:49.037Z",
+        "line": 3,
+        "name": "Advanced Searech Link",
+        "description": "// Given When And Then",
+        "id": "ebay-home-page-scenarios;advanced-searech-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2989500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on Ebay Home Page",
+            "match": {
+              "location": "steps.EbayHome_Steps.i_am_on_ebay_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 993700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Advance Link",
+            "match": {
+              "location": "steps.EbayHome_Steps.i_click_on_advance_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I navigate to Advanced Search Page",
+            "match": {
+              "location": "steps.EbayHome_Steps.i_navigate_to_advanced_search_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Ebay Home Page Scenarios",
+    "description": "",
+    "id": "ebay-home-page-scenarios",
+    "keyword": "Feature",
+    "uri": "file:features/Ebay_Home.feature",
+    "tags": []
+  }
+]
